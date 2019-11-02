@@ -7,10 +7,10 @@ input {font-size: 12px; font-family: 'Handlee', cursive;}
 h1 {font-size: 35px}
 .postcard h1{margin: 0;}
 .left-part{float: left; width: 50%}
-.right-part{float: right; width: 50%}
-.right-part input {display: block;}
+.right-part{float: right; width: 50%; padding: 0px; border-right: 0px}
+.right-part input {display: block; padding:0px }
 .postcard-body {overflow: hidden;}
-.postcard-footer {padding: 10px; text-align: center;}
+.postcard-footer {padding: 10px; text-align: center;border-bottom: 0px;}
 .postcard-footer input [type=submit] {border: none; border-bottom: 1px solid gray;}
 .postcard-body input [type=text] {border: none; border-bottom: 1px solid gray; width: 240px; display: block;
   margin-left: auto;
